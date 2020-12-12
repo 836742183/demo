@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "example.jwt",
+      "type": "com.example.shiro.utils.JwtUtil",
+      "sourceType": "com.example.shiro.utils.JwtUtil"
+    }
+  ],
+  "properties": [
+    {
+      "name": "example.jwt.expire",
+      "type": "java.lang.Long",
+      "sourceType": "com.example.shiro.utils.JwtUtil"
+    },
+    {
+      "name": "example.jwt.header",
+      "type": "java.lang.String",
+      "sourceType": "com.example.shiro.utils.JwtUtil"
+    },
+    {
+      "name": "example.jwt.secret",
+      "type": "java.lang.String",
+      "sourceType": "com.example.shiro.utils.JwtUtil"
+    }
+  ],
+  "hints": []
+}
