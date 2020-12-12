@@ -6,7 +6,7 @@ import lombok.Data;
 import java.io.Serializable;
 
 /**
- * @Description: 数据封装
+ * @Description: 用户信息数据封装
  * @Author: 王梓吉
  * @Date: 2020/12/12 1:03
  **/

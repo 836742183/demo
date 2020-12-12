@@ -122,11 +122,12 @@
     <orderEntry type="library" name="Maven: org.apache.shiro:shiro-spring-boot-web-starter:1.4.0-RC2" level="project" />
     <orderEntry type="library" name="Maven: org.apache.shiro:shiro-spring:1.4.0-RC2" level="project" />
     <orderEntry type="library" name="Maven: org.apache.shiro:shiro-web:1.4.0-RC2" level="project" />
-    <orderEntry type="library" name="Maven: cn.hutool:hutool-all:5.3.3" level="project" />
+    <orderEntry type="library" name="Maven: cn.hutool:hutool-all:5.3.10" level="project" />
     <orderEntry type="library" name="Maven: io.jsonwebtoken:jjwt:0.9.1" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.11.3" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.11.3" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.11.3" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-configuration-processor:2.4.1" level="project" />
+    <orderEntry type="library" name="Maven: javax.validation:validation-api:2.0.1.Final" level="project" />
   </component>
 </module>
