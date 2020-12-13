@@ -7,6 +7,9 @@ import java.time.LocalDateTime;
 import java.io.Serializable;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+import lombok.experimental.Accessors;
+
+import javax.validation.constraints.NotBlank;
 
 /**
  * <p>
@@ -18,6 +21,7 @@ import lombok.EqualsAndHashCode;
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
+@Accessors(chain = true)
 @TableName("m_blog")
 public class Blog implements Serializable {
 
@@ -28,10 +32,13 @@ public class Blog implements Serializable {
 
     private Long userId;
 
+    @NotBlank(message = "标题不能为空")
     private String title;
 
+    @NotBlank(message = "摘要不能为空")
     private String description;
 
+    @NotBlank(message = "内容不能为空")
     private String content;
 
     private LocalDateTime created;
